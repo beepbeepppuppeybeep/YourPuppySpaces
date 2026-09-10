@@ -1,0 +1,265 @@
+/* =========================
+   YOURPUPPYSPACES CSS
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #ffb3d9,
+        #ffd6a5,
+        #fff3a8,
+        #b8f2c8,
+        #a9ddff,
+        #cdb4ff
+    );
+
+    color: #6b4778;
+}
+
+
+/* HEADER */
+
+header {
+    padding: 35px 20px;
+
+    background: rgba(255, 255, 255, 0.75);
+
+    border-bottom: 4px solid white;
+}
+
+header h1 {
+    margin: 0;
+
+    font-size: 42px;
+
+    color: #9b59b6;
+
+    text-shadow:
+        3px 3px white,
+        5px 5px #ffb3d9;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.6);
+}
+
+nav button {
+    margin: 6px;
+    padding: 12px 22px;
+
+    border: 3px solid white;
+    border-radius: 25px;
+
+    background: #ffb6dc;
+
+    color: #6b4778;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 0 #c77bb5;
+
+    transition: 0.2s;
+}
+
+nav button:hover {
+    transform: translateY(-4px) scale(1.05);
+
+    background: #d9b3ff;
+}
+
+
+/* MAIN */
+
+main {
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 35px 20px;
+}
+
+
+/* PAGES */
+
+.page {
+    animation: fadeIn 0.4s;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* HEADINGS */
+
+h2 {
+    font-size: 32px;
+
+    color: #9b59b6;
+
+    text-shadow: 2px 2px white;
+}
+
+
+/* BOXES */
+
+.rainbow-box,
+.card {
+    margin: 25px auto;
+
+    padding: 25px;
+
+    max-width: 600px;
+
+    background: rgba(255, 255, 255, 0.85);
+
+    border: 4px solid white;
+
+    border-radius: 25px;
+
+    box-shadow: 0 8px 20px rgba(100, 70, 120, 0.2);
+}
+
+
+/* BIG BUTTON */
+
+.big-button {
+    padding: 15px 25px;
+
+    border: 3px solid white;
+
+    border-radius: 30px;
+
+    background: #b8f2c8;
+
+    color: #6b4778;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 0 #75bd91;
+
+    transition: 0.2s;
+}
+
+.big-button:hover {
+    transform: scale(1.08);
+
+    background: #a9ddff;
+}
+
+
+/* SURPRISE TEXT */
+
+#surprise,
+#music-text {
+    margin-top: 20px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: #e05c9c;
+}
+
+
+/* ART */
+
+.art-placeholder {
+    width: 200px;
+    height: 200px;
+
+    margin: 20px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #ffb3d9,
+        #cdb4ff,
+        #a9ddff
+    );
+
+    border: 5px solid white;
+
+    font-size: 80px;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 30px;
+
+    padding: 25px;
+
+    background: rgba(255, 255, 255, 0.7);
+
+    border-top: 4px solid white;
+} /* MUSIC */
+
+.song-card {
+    max-width: 650px;
+    margin: 25px auto;
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.9);
+
+    border: 4px solid white;
+    border-radius: 25px;
+
+    box-shadow: 0 8px 20px rgba(100, 70, 120, 0.2);
+}
+
+.song-card h3 {
+    color: #9b59b6;
+    margin-bottom: 15px;
+}
+
+.song-card iframe {
+    width: 100%;
+    height: 315px;
+
+    border: none;
+    border-radius: 15px;
+}

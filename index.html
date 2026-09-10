@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YourPuppySpaces ♡</title>
+
+    <!-- CONNECTS YOUR CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌈 YourPuppySpaces 🐶</h1>
+        <p>♡ welcome to my little corner of the internet ♡</p>
+    </header>
+
+    <nav>
+        <button onclick="showPage('home')">Home</button>
+        <button onclick="showPage('music')">Music</button>
+        <button onclick="showPage('art')">Art</button>
+        <button onclick="showPage('about')">About</button>
+    </nav>
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home" class="page">
+            <h2>♡ Welcome! ♡</h2>
+
+            <p>
+                Welcome to YourPuppySpaces!
+            </p>
+
+            <div class="rainbow-box">
+                <p>🌸 This is my cute little website 🌸</p>
+                <p>🐾 Look around and click the buttons!</p>
+            </div>
+
+            <button class="big-button" onclick="surpriseMe()">
+                ✨ Click for a surprise ✨
+            </button>
+
+            <p id="surprise"></p>
+        </section>
+
+
+        <!-- MUSIC -->
+<section id="music" class="page hidden">
+    <h2>🎵 My Music 🎵</h2>
+
+    <div class="song-card">
+        <h3>🎧 Tyler, The Creator - IFHY </h3>
+
+        <iframe
+            src="https://www.youtube.com/embed/3lDqMx4rmFU"
+            title="Tyler, The Creator - IFHY"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+
+    <div class="song-card">
+        <h3>🎧 Smile HD (8K) </h3>
+
+        <iframe
+            src="https://www.youtube.com/embed/bC89AB4YL6g"
+            title="Smile HD (8K)"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+
+    <div class="song-card">
+        <h3>🎧 pupsies - misery </h3>
+
+        <iframe
+            src="https://www.youtube.com/embed/wBJw9Y4WZjc"
+            title="pupsies - misery"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+        <!-- ART -->
+        <section id="art" class="page hidden">
+            <h2>🎨 My Art 🎨</h2>
+
+            <div class="card">
+                <p>♡ My artwork will go here! ♡</p>
+
+                <div class="art-placeholder">
+                    🐶
+                </div>
+
+                <p>You can add your drawings here later!</p>
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="page hidden">
+            <h2>💗 About Me 💗</h2>
+
+            <div class="card">
+                <p>
+                    Hi! Welcome to my website!
+                </p>
+
+                <p>
+                    This is my own little space on the internet.
+                </p>
+
+                <p>
+                    🌈 ♡ 🐶 ♡ 🌸 ♡ ✨
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>♡ made with love and a ridiculous amount of rainbows ♡</p>
+    </footer>
+
+
+    <!-- CONNECTS YOUR JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
